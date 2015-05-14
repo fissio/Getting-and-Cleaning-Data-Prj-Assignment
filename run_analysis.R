@@ -36,7 +36,7 @@ for (i in 1:6) {
 
 names(extracted_data)<-gsub("^t", "time", names(extracted_data));
 names(extracted_data)<-gsub("^f", "frequency", names(extracted_data));
-names(extracted_data)<-gsub("Acc", "Accelerometre", names(extracted_data));
+names(extracted_data)<-gsub("Acc", "Accelerometer", names(extracted_data));
 names(extracted_data)<-gsub("Gyro", "Gyroscope", names(extracted_data));
 names(extracted_data)<-gsub("Mag", "Magnitude", names(extracted_data));
 names(extracted_data)<-gsub("BodyBody", "Body", names(extracted_data));
